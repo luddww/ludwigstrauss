@@ -6,13 +6,13 @@
     list-style: none;
 }
 ul{
-    padding-top: 20px;
+    padding-top: 15px;
     float: right;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 ul li{
-    line-height: 20px;
+    line-height: 10px;
     margin: 0 5px;
 }
 
@@ -31,10 +31,10 @@ ul li a:hover{
 }
 
 .logo{
-    height: 210px;
+    height: 160px;
 }
 
 nav{
     background-color: #999;
-    height: 210px;
+    height: 160px;
 }
