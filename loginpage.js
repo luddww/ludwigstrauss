@@ -1,3 +1,3 @@
 window.onload = () => {
-    location.href = '/login.html';
+    location.href = '/ludwigstrauss/login.html';
 }
