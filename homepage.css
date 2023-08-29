@@ -37,3 +37,9 @@ nav{
     background-color: #999;
     height: 160px;
 }
+
+@media only screen and (max-width: 368px) {
+    .logo {
+        display: none;
+    }    
+}
