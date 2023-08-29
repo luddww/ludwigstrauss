@@ -1,17 +1,19 @@
-var password="trustme";
-var username="ludwig";
-
 function usercheck() {
-    if(document.getElementById("pass").value != password) {
-        alert("Wrong username or password! Try again.");
-        return false;
+    if (document.getElementById("user").value == "ludwig") {
+        if (document.getElementById("pass").value != "trustme") {
+            alert("Wrong username or password! Try again.");
+            return false;
+        }
+        if (document.getElementById("pass").value == "trustme") {
+            return true;
+        }
     }
-    if(document.getElementById("user").value != username) {
-        alert("Wrong username or password! Try again.");
-        return false;
-    }
-    if(document.getElementById("pass").value == password) {
-        if(document.getElementById("user").value == username) {
+    if (document.getElementById("user").value == "joshua") {
+        if (document.getElementById("pass").value != "66") {
+            alert("Wrong username or password! Try again.");
+            return false;
+        }
+        if (document.getElementById("pass").value == "66") {
             return true;
         }
     }
