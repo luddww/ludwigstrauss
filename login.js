@@ -1,6 +1,6 @@
 function usercheck() {
     if (document.getElementById("user").value == "ludwig") {
-        if (document.getElementById("pass").value != "trustme") {
+        if (document.getElementById("pass").value != "asdfghjkl") {
             alert("Wrong username or password! Try again.");
             return false;
         }
