@@ -43,3 +43,26 @@ nav{
         display: none;
     }    
 }
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 15px;
+}
