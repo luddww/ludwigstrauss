@@ -5,17 +5,73 @@
     box-sizing: border-box;
     list-style: none;
 }
-ul{
-    padding-top: 15px;
-    float: right;
+
+.light-green-wrapper{
+    width: 100%;
+    background-color: #d2f7d3;
+    border-radius: 30px;
 }
 
-ul li{
+.light-blue-wrapper{
+    width: 100%;
+    background-color: #c7f6fc;
+    border-radius: 30px;
+}
+
+.light-purple-wrapper{
+    width: 100%;
+    background-color: #ccc7fc;
+    border-radius: 30px;
+}
+
+.light-red-wrapper{
+    width: 100%;
+    background-color: #fcc7c7;
+    border-radius: 30px;
+}
+
+.light-yellow-wrapper{
+    width: 100%;
+    background-color: #fcf1c7;
+    border-radius: 30px;
+}
+
+.minecraft-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.minecraft-nav li{
     line-height: 10px;
     margin: 0 5px;
 }
 
-ul li a{
+.minecraft-nav li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #222;
+    padding: 8px 14px;
+    border-radius: 3px;
+    background-color: #888;
+}
+
+.minecraft-nav li a:hover{
+    background-color: #555;
+    transition: 0.5s;
+}
+
+.nav-bar{
+    padding-top: 15px;
+    float: right;
+}
+
+.nav-bar li{
+    line-height: 10px;
+    margin: 0 5px;
+}
+
+.nav-bar li a{
     font-size: 20px;
     float: right;
     text-transform: uppercase;
@@ -24,18 +80,33 @@ ul li a{
     border-radius: 3px;
 }
 
-ul li a:hover{
+.nav-bar li a:hover{
     background-color: #555;
     transition: 0.5s;
 }
 
 .logo{
     height: 160px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.top-logo{
+    width: 100%;
+    padding: 30px;
 }
 
 nav{
     background-color: #999;
     height: 160px;
+    border-radius: 20px;
+}
+
+.page-link{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3px;
 }
 
 @media only screen and (max-width: 368px) {
@@ -48,7 +119,7 @@ h1{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 25px;
     padding-bottom: 15px;
 }
 
@@ -65,4 +136,15 @@ p{
     justify-content: center;
     text-align: center;
     padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+p2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
