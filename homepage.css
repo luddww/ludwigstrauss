@@ -8,31 +8,40 @@
 
 .light-green-wrapper{
     width: 100%;
-    background-color: #d2f7d3;
+    background-color: rgba(210, 247, 211, 0.75);
     border-radius: 30px;
 }
 
 .light-blue-wrapper{
     width: 100%;
-    background-color: #c7f6fc;
+    background-color: rgba(199, 246, 252, 0.75);
     border-radius: 30px;
 }
 
 .light-purple-wrapper{
     width: 100%;
-    background-color: #ccc7fc;
+    background-color: rgba(204, 199, 252, 0.75);
     border-radius: 30px;
 }
 
 .light-red-wrapper{
     width: 100%;
-    background-color: #fcc7c7;
+    background-color: rgba(252, 199, 199, 0.75);
     border-radius: 30px;
 }
 
 .light-yellow-wrapper{
     width: 100%;
-    background-color: #fcf1c7;
+    background-color: rgba(252, 241, 199, 0.75);
+    border-radius: 30px;
+}
+
+.img-wrapper-0{
+    background: url(world-at-02092023.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
     border-radius: 30px;
 }
 
@@ -96,6 +105,13 @@
     padding: 30px;
 }
 
+.mid-logo{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 nav{
     background-color: #999;
     height: 160px;
@@ -120,7 +136,7 @@ h1{
     justify-content: center;
     text-align: center;
     padding-top: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 h2{
@@ -128,7 +144,7 @@ h2{
     justify-content: center;
     text-align: center;
     padding-top: 15px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 p{
